@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="logo">News Aggregator</div>
+    </header>
+
+    <main>
+        <div class="content">
+            <section class="articles">
+                <h2>Latest News</h2>
+                <div class="article-container">
+                    <div class="article-text">
+                        <article>
+                            <h3>Zomato Collision Detection System</h3>
+                            <p>Zomato collision detection system is part of their "Accelerated Safety Response" program,which aims to enhance delivery partner safely.</p>
+                            <a href="https://www.livemint.com/technology/tech-news/next-time-a-zomato-delivery-partner-meets-an-accident-help-will-be-immediate-here-s-how-11734518125154.html">Read more</a>
+                        </article>
+                    </div>
+                    <div class="article-image">
+                        <img src="https://www.shutterstock.com/image-illustration/adas-image-showing-radar-detection-260nw-2520039017.jpg" alt="Zomato Collision Detection System">
+                    </div>
+                </div>
+                <div class="article-container">
+                    <div class="article-text">
+                        <article>
+                            <h3>World's Oldest Known Wild Bird</h3>
+                            <p>The World's oldest known wild bird,an Albatross who's around 74 years old and has recently returned to her nesting place in the Midway Atoll.</p>
+                            <a href="https://www.msn.com/en-in/news/offbeat/world-s-oldest-wild-bird-wisdom-lays-her-60th-egg-at-the-age-of-74-watch/ar-AA1vtdN2?ocid=BingNewsSerp">Read more</a>
+                        </article>
+                    </div>
+                    <div class="article-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nfEmtq5EXuOmDVeYukmOsO1JiJGh_BdzOg&s" alt="worlds oldest known wild bird">
+                </div>
+            </div>
+                <div class="article-container">
+                    <div class="article-text">
+                        <article>
+                            <h3>COP29 Agreement</h3>
+                            <p>Nearly 200 countries have reached an agreement to help poorer countries deal with the climate crisis,pleding $300 billion in support.</p>
+                            <a href="https://www.cnn.com/2024/11/23/climate/cop29-agreement/index.html#:~:text=The%20world%20agreed%20to%20a%20new%20climate%20deal,crisis%20%E2%80%94%20a%20figure%20many%20developing%20countries%20criti">Read more</a>
+                        </article>
+                    </div>
+                    <div class="article-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBes6kZ6pHs6X07LwP6ytDCPC3GN0CoF1eA&s" alt="COP29 Agreement">
+                    </div>
+                </div>
+                <div class="article-container">
+                    <div class="article-text">
+                        <article>
+                            <h3>New Material for Capturing Carbon</h3>
+                            <p>Scients in California have created a new material called COF-999 that can remove large amounts of carbon dioxide from their air.</p>
+                            <a href="https://spectrum.ieee.org/carbon-capture-2670435467#:~:text=MIT%20researchers%20have%20developed%20a%20new%20copper-woven%20electrode,fuels%2C%20offering%20a%20cost-effective%20alternative%20to%20fossil%20fuels">Read more</a>
+                        </article>
+                    </div>
+                    <div class="article-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS40MpwReRP9ZYC-VRT2qyGiqkoZjlM75kE1w&s" alt="New Material for Capturing Carbon">
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <style>
+            
+            nav{
+            background-color: black;
+            color:#fff;
+            padding:1em;
+            text-align:center;
+        }
+        nav ul{
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+        nav li{
+            display:inline-block;
+            margin-right:20px;
+        }
+        nav a:hover {
+            color:#ccc;
+        }
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .articles {
+                width: 80%;
+            }
+            .article-container {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+            }
+            .article-text {
+                flex: 2;
+                margin-right: 10px;
+            }
+            .article-image {
+                flex: 1;
+            }
+            .article-image img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+        
+
+            <aside class="sidebar">
+                <h2>Trending Topics</h2>
+                <ul>
+
+                    <li><b><a href="https://www.hindustantimes.com/india-news/former-haryana-cm-om-prakash-chautala-passes-away-in-gurugram-101734678003812.html"> 1)*  Former Haryana CM Om Prakash Chautala passes away in Gurugram </a></b></li><br>
+                    <li><b><a href="https://www.outlookindia.com/sports/cricket/ind-w-vs-wi-w-3rd-t20i-ghosh-mandhana-help-india-defeat-west-indies-by-60-runs-win-series-2-1"> 2)* Ghosh, Mandhana help India Defeat West Indies by 60 runs</a></b></li></li><br>
+                    <li><b><a href="https://indianexpress.com/article/entertainment/bollywood/atlee-on-releasing-varun-dhawans-baby-john-amid-pushpa-2-box-office-storm-dont-call-it-a-clash-9733858/"> 3)*  Atlee on releasing Varun Dhawan's Baby John amid PUSHPA 2 box office storm</a></b></li><br>
+                    <li><b><a href="https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/no-alcohol-or-drugs-most-of-us-teens-are-high-on-something-else-survey/articleshow/116471036.cms"> 4)*  Not alcohol or drugs! Most of US teens are 'high' on something else</a></b></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 News Aggregator</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Navigation (Sidebar) Styles */
+aside.sidebar {
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+aside.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+aside.sidebar ul {
+    list-style: none;
+}
+
+aside.sidebar li {
+    margin: 10px 0;
+}
+
+aside.sidebar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+aside.sidebar a:hover {
+    color: #007bff;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Articles Section */
+.articles {
+    width: 70%;
+}
+
+/* Article Container */
+.article-container {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Article Text */
+.article-text {
+    padding: 20px;
+    flex: 2;
+}
+
+.article-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.article-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.article-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-text a:hover {
+    text-decoration: underline;
+}
+
+/* Article Image */
+.article-image {
+    flex: 1;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside.sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .articles {
+        width: 100%;
+    }
+
+    .article-container {
+        flex-direction: column;
+    }
+
+    .article-image {
+        margin-top: 15px;
+    }
+}
